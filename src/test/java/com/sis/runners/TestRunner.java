@@ -16,7 +16,7 @@ import io.cucumber.junit.CucumberOptions;
 
 		monochrome = true,
 
-		tags = "@LoginPageValidation",
+		tags = "@AdminLoginFunctionality",
 
 		plugin = {
 

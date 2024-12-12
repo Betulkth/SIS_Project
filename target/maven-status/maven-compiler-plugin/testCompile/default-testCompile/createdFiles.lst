@@ -6,8 +6,10 @@ com\sis\utils\ExcelUtility.class
 com\sis\testbase\PageInitializer.class
 com\neotech\pages\LoginPageElements.class
 com\sis\testbase\BaseClass.class
+com\sis\steps\AdminLoginFunctionalitySteps.class
 com\sis\runners\RegressionRunner.class
 com\sis\utils\ConfigsReader.class
 com\sis\steps\LoginPageValidationSteps.class
 com\sis\runners\TestRunner.class
 com\sis\utils\CommonMethods.class
+com\neotech\pages\HomePageElements.class
