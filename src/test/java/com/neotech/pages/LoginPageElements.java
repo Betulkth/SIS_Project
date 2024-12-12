@@ -14,17 +14,23 @@ public class LoginPageElements {
 	@FindBy(id="topLogo")
 	public WebElement logo;
 	
-	@FindBy(xpath="//form[1]//tr[1]/td[@class='titleMid']")
+	@FindBy(xpath="//td[contains(text(), 'Username')]")
 	public WebElement usernameHeader; 
 	
-	@FindBy(xpath="//form[1]//tr[2]/td[@class='titleMid']")
+	@FindBy(xpath="//td[contains(text(), 'Password')]")
 	public WebElement passwordHeader;
 	
-	@FindBy(xpath="//form[1]//tr[3]/td[@class='titleMid']")
+	@FindBy(xpath="//td[contains(text(), 'Academic Year')]")
 	public WebElement academicYearHeader;
 	
 	@FindBy(id="bLogin")
 	public WebElement loginBtn;
+	
+	@FindBy(xpath="//input[@id='tUsername']")
+	public WebElement usernameBox;
+	
+	@FindBy(xpath="//input[@id='tPassword']")
+	public WebElement passwordBox;
 	
 	public LoginPageElements() {
 		

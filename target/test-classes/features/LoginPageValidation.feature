@@ -1,5 +1,5 @@
 @LoginPageValidation
-Feature: Login Page Validation
+Feature: Login Page Functionality
 
   Scenario: Validate landing on the Login Page successfully
      
@@ -10,4 +10,4 @@ Feature: Login Page Validation
   Scenario: Validate behavior for an incorrect URL
   
     When Navigate to the "https://sis.neotechacademy.com/invalid" URL
-    Then Validate the error message
+    Then Validate the error message 
