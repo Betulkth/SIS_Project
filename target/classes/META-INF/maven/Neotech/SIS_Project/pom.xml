@@ -83,7 +83,7 @@
 				<version>3.2.5</version>
 				<configuration>
 					<includes>
-						<include>**/*TestRunner.java</include>
+						<include>**/*${runner}.java</include>
 					</includes>
 				</configuration>
 			</plugin>
